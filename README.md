@@ -5,14 +5,14 @@ without human intervention.
 ## Getting Started
 Your Raspberry Pi needs to be connected to the internet via Huawei Wingle.
 
-## Prerequisites
+### Prerequisites
 Make sure you have git installed on your Raspberry Pi. To install git and virtualenv -
 ```
 sudo apt-get install git
 sudo pip install virtualenv
 ```
 
-## Installing
+### Installing
 Follow these instructions -
 
 
@@ -51,7 +51,11 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
+### Running the script
 Run the python code
 ```
 python wingle_web_scraper.py
 ```
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
