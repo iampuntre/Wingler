@@ -6,10 +6,9 @@ without human intervention.
 Your Raspberry Pi needs to be connected to the internet via Huawei Wingle.
 
 ### Prerequisites
-Make sure you have git installed on your Raspberry Pi. To install git and virtualenv -
+Make sure you have git installed on your Raspberry Pi. To install git -
 ```
 sudo apt-get install git
-sudo pip install virtualenv
 ```
 
 ### Installing
@@ -28,7 +27,7 @@ sudo wget https://github.com/aeberhardo/phantomjs-linux-armv6l/archive/master.zi
 sudo unzip master.zip
 cd phantomjs-linux-armv6l-master
 sudo bunzip2 *.bz2
-tar xf *.tar
+sudo tar xf *.tar
 sudo cp phantomjs-1.9.0-linux-armv6l/bin/phantomjs /usr/bin
 ```
 
@@ -44,10 +43,8 @@ git clone https://github.com/iampuntre/Wingler.git
 cd Wingler
 ```
 
-Setup virtualenv and install requirements
+Install the requirements
 ```
-virtualenv env
-source env/bin/activate
 pip install -r requirements.txt
 ```
 
